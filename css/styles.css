@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+#header-nav {
+  background-color: rgb(200, 197, 197);
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { 
+  font-family: sans-serif;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list li {
+  text-align: center;
+  font-size: 16px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-bottom: 15px;
+}
+
+.food {
+  border: 1px solid black;
+  margin: 5px;
+  background-color: rgb(200, 197, 197);
+}
+
+.name {
+  border: 1px solid black;
+  border-top: 0;
+  border-right: 0;
+  width: 70px;
+  text-align: center;
+  float: right;
+  background-color: rgb(243, 218, 222);
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  margin-left: 5px;
+}
+
+.navbar-toggle {
+  border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #collapsable-nav {
+    background-color: white; 
+    padding-left: 0;
+    padding-right: 0;
+    border-top: 1px solid black;
+  }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
